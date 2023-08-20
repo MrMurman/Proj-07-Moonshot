@@ -11,6 +11,15 @@
 		6F7B64F22A90F861007DD434 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B64F12A90F861007DD434 /* ContentView.swift */; };
 		6F7B64F42A90F863007DD434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7B64F32A90F863007DD434 /* Assets.xcassets */; };
 		6F7B64F72A90F863007DD434 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7B64F62A90F863007DD434 /* Preview Assets.xcassets */; };
+		6FAE3D3C2A91F09B002B7064 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE3D3B2A91F09A002B7064 /* Mission.swift */; };
+		6FAE3D3E2A91F9DD002B7064 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE3D3D2A91F9DD002B7064 /* Color-Theme.swift */; };
+		6FAE3D402A91FD72002B7064 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE3D3F2A91FD72002B7064 /* MissionView.swift */; };
+		6FAE3D422A9209DD002B7064 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE3D412A9209DD002B7064 /* AstronautView.swift */; };
+		6FAE3D442A921105002B7064 /* AstronautScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE3D432A921105002B7064 /* AstronautScrollView.swift */; };
+		6FD2992A2A91E9BE0018D4E9 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FD299282A91E9BE0018D4E9 /* astronauts.json */; };
+		6FD2992B2A91E9BE0018D4E9 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FD299292A91E9BE0018D4E9 /* missions.json */; };
+		6FD2992D2A91ED180018D4E9 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2992C2A91ED180018D4E9 /* Astronaut.swift */; };
+		6FD2992F2A91ED6C0018D4E9 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2992E2A91ED6C0018D4E9 /* Bundle-Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		6F7B64F12A90F861007DD434 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6F7B64F32A90F863007DD434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F7B64F62A90F863007DD434 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FAE3D3B2A91F09A002B7064 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		6FAE3D3D2A91F9DD002B7064 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		6FAE3D3F2A91FD72002B7064 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		6FAE3D412A9209DD002B7064 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		6FAE3D432A921105002B7064 /* AstronautScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautScrollView.swift; sourceTree = "<group>"; };
+		6FD299282A91E9BE0018D4E9 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		6FD299292A91E9BE0018D4E9 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		6FD2992C2A91ED180018D4E9 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		6FD2992E2A91ED6C0018D4E9 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +71,16 @@
 			children = (
 				6F7B64EF2A90F861007DD434 /* Proj_07_MoonshotApp.swift */,
 				6F7B64F12A90F861007DD434 /* ContentView.swift */,
+				6FAE3D3F2A91FD72002B7064 /* MissionView.swift */,
+				6FAE3D432A921105002B7064 /* AstronautScrollView.swift */,
+				6FAE3D412A9209DD002B7064 /* AstronautView.swift */,
+				6FD2992C2A91ED180018D4E9 /* Astronaut.swift */,
+				6FAE3D3B2A91F09A002B7064 /* Mission.swift */,
+				6FD2992E2A91ED6C0018D4E9 /* Bundle-Decodable.swift */,
+				6FD299282A91E9BE0018D4E9 /* astronauts.json */,
+				6FD299292A91E9BE0018D4E9 /* missions.json */,
 				6F7B64F32A90F863007DD434 /* Assets.xcassets */,
+				6FAE3D3D2A91F9DD002B7064 /* Color-Theme.swift */,
 				6F7B64F52A90F863007DD434 /* Preview Content */,
 			);
 			path = "Proj-07-Moonshot";
@@ -125,7 +152,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FD2992A2A91E9BE0018D4E9 /* astronauts.json in Resources */,
 				6F7B64F72A90F863007DD434 /* Preview Assets.xcassets in Resources */,
+				6FD2992B2A91E9BE0018D4E9 /* missions.json in Resources */,
 				6F7B64F42A90F863007DD434 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FAE3D402A91FD72002B7064 /* MissionView.swift in Sources */,
+				6FD2992D2A91ED180018D4E9 /* Astronaut.swift in Sources */,
+				6FAE3D422A9209DD002B7064 /* AstronautView.swift in Sources */,
+				6FAE3D442A921105002B7064 /* AstronautScrollView.swift in Sources */,
+				6FAE3D3E2A91F9DD002B7064 /* Color-Theme.swift in Sources */,
 				6F7B64F22A90F861007DD434 /* ContentView.swift in Sources */,
 				6F7B64F02A90F861007DD434 /* Proj_07_MoonshotApp.swift in Sources */,
+				6FAE3D3C2A91F09B002B7064 /* Mission.swift in Sources */,
+				6FD2992F2A91ED6C0018D4E9 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +341,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
